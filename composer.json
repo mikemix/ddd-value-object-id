@@ -1,0 +1,25 @@
+{
+  "name": "mikemix/ddd-value-object-id",
+  "description": "Value Object as Doctrine entity ID",
+  "require": {
+    "php": "^7.0"
+  },
+  "keywords": [
+    "doctrine",
+    "symfony",
+    "ddd",
+    "value bject"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Zukowski",
+      "homepage": "https://mikemix.github.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mikemix\\ValueObjectId\\": "src/"
+    }
+  }
+}
