@@ -40,7 +40,7 @@ abstract class AbstractUuidType extends Type
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
         $fieldDeclaration['length'] = 16;
-        $fieldDeclaration['fixed'] = 16;
+        $fieldDeclaration['fixed'] = true;
 
         return $platform->getBinaryTypeDeclarationSQL($fieldDeclaration);
     }
